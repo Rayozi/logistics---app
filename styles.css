@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    /* border: 2px solid red; */
+    background-color: #1D75D81C;
+    padding-block: 8px;
+}
+
+label, input{
+    display: none;
+}
+
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1250px;
+    padding-block: 8px;
+}
+
+.logo{
+    font-family: Inria Serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+    color: #0F66C9;
+    text-transform: capitalize;
+}
+
+.navitems{
+    display: flex;
+    gap: 1rem;
+}
+
+.navitems>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+
+.navbtn>button{
+    text-transform: capitalize;
+    background-color: #0F66C9;
+    padding-block: 8px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-inline: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+/* hero section */
+
+.herosec{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /* gap: -28000rem; */
+    /* border: 2px solid red; */
+}
+
+.subcaption>h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.maincaption{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    width: 622px;
+    line-height: normal;
+    color: #000;
+    /* border: 2px solid red; */
+}
+
+.maincaption>h1{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.heroimg>img{
+    /* border: 2px solid red; */
+
+}
+
+.herosubtext{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+/* blue section */
+
+.bluesec{
+    background-color: #0F66C9;
+    color: white;
+    padding-block: 1rem;
+    padding-inline: 4rem;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section2{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    gap: 3rem;
+    margin-top: 3rem;
+    /* margin-bottom: 2rem; */
+    /* border: 2px solid red; */
+}
+
+
+.title>h1{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.5rem;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.title>h1>span{
+    color: #0F66C9;
+}
+
+.subtitle{
+    font-size: 30px;
+    color: #000000;
+}
+.img>img{
+    /* border: 2px solid red; */
+    padding-bottom: 4rem;
+}
+
+/* section 3 */
+
+.sec3wrapper{
+    background-color: #D9D9D9AB;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.sec3content{
+    padding-inline: 3rem;
+    padding-block: 3rem;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience>h5, .office>h5, .Vehicles>h5{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.experience{
+    color: #0F66C9;
+}
+
+.experience>p, .office>p, .Vehicles>p{
+    font-family: "Inter", sans-serif;
+}
+
+.message{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 50px;
+}
+
+.message>h3>span{
+    color: #0F66C9;
+}
+
+.sec3btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.sec3btn>button{
+    text-transform: capitalize;
+    background-color: #0F66C9;
+    padding-block: 18px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-inline: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+/* section 4 */
+
+.section4{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url(./images/Rectangle\ 88.png)
+}
+
+.sec4content{
+    padding-left: 3rem;
+}
+
+.sec4content>h1{
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.sec4content>p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.sec4btn>button{
+    text-transform: capitalize;
+    background-color: #fff;
+    padding-block: 17px;
+    color: #074387;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+/* section 5 */
+
+.section5{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+    height: 55vh;
+    margin-bottom: 7rem;
+}
+
+.lhs{
+    background-color: #074387;
+    display: flex;
+    align-items: center;
+}
+
+.lhscontent{
+    padding-inline: 3rem;
+    /* padding-block: 4rem; */
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    /* border: 2px solid red; */
+}
+
+.lhscontent>h3{
+    font-size: 37px;
+    width: 500px;
+}
+
+.lhscontent>p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.lhsbtn>button{
+    text-transform: capitalize;
+    background-color: #fff;
+    padding-block: 18px;
+    color: #0F66C9;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.sec5img>img{
+    height: 400px;
+}
+
+/* sec 6 */
+
+.section6{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    /* border: 2px solid red; */
+}
+
+/* .section6content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3rem;
+} */
+
+.testimonial{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.testimonial>h2{
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.testimonial>p{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.name>h2{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+}
+
+.rating{
+    color: #F6D008;
+    font-size: 28px;
+}
+
+.rating>p>span{
+    color: #000000;
+}
+
+.section8{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 4rem;
+    padding-left: 4rem;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/Rectangle\ 96.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.section8content{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.section8content>h3{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    line-height: normal;
+}
+
+.section8content>p{
+    font-size: 16px;
+    line-height: normal;
+}
+
+.section8btn>button{
+    text-transform: capitalize;
+    background-color: #0F66C9;
+    padding-block: 18px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-inline: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+.footer{
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footercontent{
+    display: flex;
+    gap: 8rem;
+    padding-block: 4rem;
+    padding-inline: 3rem;
+    
+}
+
+.footerlogo>h3{
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    color: #0F66C9;
+    text-transform: capitalize;
+}
+
+
+.company>h3, .legal>h3, .support>h3, .newsletter>h3{
+    color: #1B1C20;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.company>p, .legal>p, .support>p, .newsletter>p{
+    color:#383A47;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+}
+
+
+
+/* responsive code */
+
+@media(min-width: 260px) and (max-width: 400px){
+    .navitems{
+        display: none;
+        position: absolute;
+        width: 80%;
+        padding-left: 1.8rem;
+        padding-top: .5rem;
+        top: 4rem;
+        right: 3px;
+        z-index: 1;
+        background-color: #fff;
+        opacity: 2;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+
+    .navitems>a{
+        display: flex;
+        flex-direction: column;
+        padding: 0.6rem;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        /* border-bottom: 0.1px solid #000; */
+    }
+
+
+
+    #toggle:checked + .navitems {
+        display: block;
+        transform: none;
+    }
+
+    label{
+        display: block;
+        font-size: 2rem;
+        margin-left: 9rem;
+    }
+
+    .logo{
+        font-size: 14px;
+        margin-left: 2.5rem;
+    }
+
+    .navbtn>button{
+        display: none;
+    }
+
+    .herosec{
+        flex-direction: column; 
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+
+    .maincaption{
+        font-size: 16px;
+        width: 390px;
+        margin-left: 2.5rem;
+        /* border: 2px solid red; */
+    }
+
+    .maincaption>h1{
+        font-weight: 600;
+    }
+
+    .subcaption>h4{
+        font-size: 20px;
+        margin-left: 2.5rem;
+    }
+
+    .herosubtext{
+        font-size: 15px;
+        margin-left: 2.5rem;
+
+    }
+
+    .herocaption>img{
+        height: 100px;
+        margin-left: 2.5rem;
+    }
+
+    .heroimg>img{
+        height: 300px;
+    }
+
+
+.bluesec{
+    font-size: 16px;
+    padding-inline: 6rem;
+    max-width: 350px;
+    margin-left: 1.5rem;
+    /* margin-bottom: 2rem; */
+}
+
+.section2{
+    flex-direction: column;
+    margin-top: -2rem;
+}
+
+.title>h1{
+    font-size: 35px;
+    margin-left: 2.5rem;
+
+}
+
+.subtitle{
+    font-size: 20px;
+    margin-left: 2.5rem;
+}
+
+.img>img{
+    /* border: 2px solid red; */
+    height: 300px;
+    margin-left: 3rem;
+}
+
+.sec3wrapper{
+    max-width: 350px;
+    /* border: 2px solid red; */
+}
+
+.numbers{
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.experience>h5, .office>h5, .Vehicles>h5{
+    font-size: 30px;
+}
+
+.message{
+    margin-top: 1.5rem;
+    font-size: 35px;
+}
+
+.section4{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40vh;
+}
+
+.sec4content{
+    padding-left: 2rem;
+}
+
+.sec4content>h1{
+    font-size: 25px;
+}
+
+.sec4content>p{
+    font-size: 16px;
+}
+
+.section5{
+    /* border: 2px solid red; */
+    margin-top: -3rem;
+    flex-direction: column;
+}
+
+.lhscontent{
+    padding-block: 2rem;
+    padding-left: 2rem;
+    /* border: 2px solid red; */
+}
+
+.lhscontent>h3{
+    font-size: 25px;
+}
+
+.lhscontent>p{
+    font-size: 16px;
+}
+
+.sec5img>img{
+    height: 200px;
+    margin-left: 3.5rem;
+    margin-top: -2.5rem;
+}
+
+.section6{
+    margin-top: 10rem;
+    /* border: 2px solid red; */
+}
+
+.sec6img>img{
+    height: 80px;
+    width: 350px;
+    margin-left: 1.2rem;
+}
+
+.testimonial{
+    /* border: 2px solid red; */
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+}
+
+.testimonial>h2{
+    font-size: 30px;
+}
+
+.testimonial>p{
+    font-size: 14px;
+}
+
+.profile>img{
+    height: 100px;
+    width: 100px;
+}
+
+.name>h2{
+    font-size: 25px;
+}
+
+.rating{
+    font-size: 20px;
+}
+
+
+.section8{
+    /* border: 2px solid red; */
+    margin-top: -3rem;
+    height: 50vh;
+    padding-left: 2rem;
+}
+
+.section8content>h3{
+    font-size: 28px;
+    width: 500px !important
+}
+
+.section8content>p{
+    font-size: 15px;
+    width: 300px;
+    margin-top: -1rem;
+}
+
+.footer{
+    /* border: 2px solid red; */
+    margin-top: -5rem;
+}
+
+.footercontent{
+    gap: 1rem;
+    padding-inline: 1rem;
+    
+}
+
+.footerlogo>h3{
+    font-size: 18px;
+}
+
+
+.company>h3, .legal>h3, .support>h3, .newsletter>h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.company>p, .legal>p, .support>p, .newsletter>p{
+    font-size: 11px;
+}
+
+
+}
